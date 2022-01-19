@@ -1,0 +1,19 @@
+{
+  "name": "infra_config",
+  "version": "1.0.0",
+  "description": "Библиотека для внтренних ресурсов. Позволяет получать настройки конфигураций из сервиса конфигов.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasilisk951/infra_config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasilisk951/infra_config/issues"
+  },
+  "homepage": "https://github.com/Vasilisk951/infra_config#readme"
+}
