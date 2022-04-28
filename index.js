@@ -1,4 +1,11 @@
-import { data } from './constructorData';
+class data {
+    constructor(baseUrl, nameProject, secretKey) {
+        this.baseUrl = baseUrl;
+        this.nameProject = nameProject;
+        this.secretKey = secretKey;
+    }
+}
+
 let newData;
 
 export async function config(nameConfig, fn, nameEnv) {
