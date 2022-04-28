@@ -14,6 +14,7 @@ export async function config(nameConfig, fn, nameEnv) {
 }
 
 export function initConfig(baseUrl, nameProject, secretKey) {
+    console.log(baseUrl, nameProject, secretKey)
     newData = new data(baseUrl, nameProject, secretKey);
 }
 
